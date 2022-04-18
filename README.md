@@ -1,4 +1,4 @@
-### Hi there 👋,
+### Hi there 👋
 #### all you  ✨ _special_ ✨ people
 
 - 🔭 I’m currently working on a project called Neoprogeny for Neoflora
