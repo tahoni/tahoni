@@ -11,7 +11,7 @@
 - 😄 Pronouns: 
   - She/her
 - ⚡ Fun fact:
-  - I totally **LOVE** the colour pink
+  - I totally **LOVE** the colour pink 💗
 
 ****
 <!--
