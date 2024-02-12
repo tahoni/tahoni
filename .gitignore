@@ -1,4 +1,4 @@
-### JETBRAINS ###
+## JETBRAINS
 # Covers JetBrains IDEs: IntelliJ, RubyMine, PhpStorm, AppCode, PyCharm, CLion, Android Studio, WebStorm and Rider
 # Reference: https://intellij-support.jetbrains.com/hc/en-us/articles/206544839
 
@@ -17,6 +17,7 @@
 .idea/**/dataSources.ids
 .idea/**/dataSources.local.xml
 .idea/**/sqlDataSources.xml
+.idea/**/jpa-buddy.xml
 .idea/**/dynamic.xml
 .idea/**/uiDesigner.xml
 .idea/**/dbnavigator.xml
@@ -72,8 +73,13 @@ fabric.properties
 .idea/caches/build_file_checksums.ser
 
 
-### CUSTOM ###
-.npmrc
-.run/
-target/
+## VISUAL STUDIO
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+*.code-workspace
 
+# Local History for Visual Studio Code
+.history/
