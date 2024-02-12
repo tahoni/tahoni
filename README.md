@@ -2,7 +2,7 @@
 
 #### all you ✨ _special_ ✨ people
 
-- 🔭 I’m currently working on a project called Neoprogeny for Neoflora
+- 🔭 I’m working on a project called Neoprogeny for Neoflora in my spare time
   - It will be used to store, retrieve and analyse data about plant cultivars
 - 🌱 I’m currently learning Java 21, TypeScript, React and Spring Boot
 - 💬 Ask me about cats. I love discussing their mysteries.
