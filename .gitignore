@@ -295,3 +295,4 @@ run/
 build/
 target/
 .idea/
+.junie/
