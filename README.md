@@ -13,7 +13,7 @@ away from the keyboard!
 
 **Let's connect:**
 
-— 🌐 Website: [tahoni.info](https://tahoni.info)
-— 📧 Email: [leonil@tahoni.info](mailto:leonil@tahoni.info)
-— 🐙 GitHub: [github.com/tahoni](https://github.com/tahoni)
-— 💼 LinkedIn: [Leoni Lubbinge](https://www.linkedin.com/in/leoni-lubbinge-06066b16/)
+- 🌐 Website: [tahoni.info](https://tahoni.info)
+- 📧 Email: [leonil@tahoni.info](mailto:leonil@tahoni.info)
+- 🐙 GitHub: [github.com/tahoni](https://github.com/tahoni)
+- 💼 LinkedIn: [Leoni Lubbinge](https://www.linkedin.com/in/leoni-lubbinge-06066b16/)
