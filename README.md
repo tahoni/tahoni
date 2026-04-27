@@ -1,4 +1,4 @@
-**Hi, I'm Leoni Lubbinge** — a senior full stack developer based in Pretoria, Gauteng, South Africa, with over
+**Hi, I'm Leoni Lubbinge** — a senior full-stack developer based in Pretoria, Gauteng, South Africa, with over
 10 years of experience building robust and scalable applications. I specialise in Java (currently levelling up
 with Java 25, the latest LTS) with the Spring Boot framework and MySQL, as well as TypeScript with React,
 using Vite to keep things fast and modern. I also embrace AI as part of my development workflow, using it to
@@ -13,7 +13,7 @@ away from the keyboard!
 
 **Let's connect:**
 
-- 🌐 Website: [tahoni.info](https://tahoni.info)
-- 📧 Email: [leonil@tahoni.info](mailto:leonil@tahoni.info)
-- 🐙 GitHub: [github.com/tahoni](https://github.com/tahoni)
-- 💼 LinkedIn: [Leoni Lubbinge](https://www.linkedin.com/in/leoni-lubbinge-06066b16/)
+— 🌐 Website: [tahoni.info](https://tahoni.info)
+— 📧 Email: [leonil@tahoni.info](mailto:leonil@tahoni.info)
+— 🐙 GitHub: [github.com/tahoni](https://github.com/tahoni)
+— 💼 LinkedIn: [Leoni Lubbinge](https://www.linkedin.com/in/leoni-lubbinge-06066b16/)
