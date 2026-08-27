@@ -1,4 +1,5 @@
-**Hi, I'm Leoni Lubbinge** a senior full-stack developer based in Pretoria, Gauteng, South Africa.
+**Hi, I'm Leoni Lubbinge** a senior full-stack developer based in Pretoria, Gauteng, South Africa 
+with more than 10 years of experience.
 
 My current tech stack is Spring Boot with Java and React with TypeScript bootstrapped with Vite,
 and I like to use Bootstrap for my UI.
