@@ -74,7 +74,7 @@ phrasing/scope naming) — never fold already-committed work into the new messag
 
 Do **not** run `git add` or `git commit` yourself — this skill only drafts, for the user to review and run.
 
-1. The final commit message (s) as fenced code blocks, each followed by a ready-to-run `git commit` command
+1. The final commit message(s) as fenced code blocks, each followed by a ready-to-run `git commit` command
 2. If proposing multiple commits, output one message block and one commit command per commit, in the order they
    should be made
 
