@@ -32,5 +32,5 @@ and insist on getting their share of my time.
 You can connect to me on the following platforms:
 
 - 📧 Email: [tahoni@gmail.com](mailto:tahoni@gmail.com)
-- 🐙 GitHub: [github.com/tahoni](https://github.com/tahoni)
-- 💼 LinkedIn: [Leoni Lubbinge](https://www.linkedin.com/in/tahoni/)
+- 🐙 GitHub: [https://github.com/tahoni](https://github.com/tahoni)
+- 💼 LinkedIn: [https://www.linkedin.com/in/tahoni/](https://www.linkedin.com/in/tahoni/)
