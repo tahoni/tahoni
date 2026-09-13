@@ -34,13 +34,15 @@ Before drafting, run these yourself and read their output:
    `docs/linkedin/about.md`) to understand what changed in tone/content.
 6. Read the most recent file in `documentation/history/` (e.g. the prior `RELEASE_NOTES_v*.md` and
    `PR_DESCRIPTION_v*.md`) to match established structure, heading style and emoji conventions.
+7. Read `AGENTS.md` in full for conventions.
 
 ## 🚀 Instructions
 
-This is a personal profile repo (README + bio content) — there is no build, test suite, package manifest, or
-version file to bump. Follow this repo's established GitFlow-style branching: release branches (`release/v$VERSION`) are
-cut from `develop`, merged back into `develop`, and `develop` is later merged into `main`
-and tagged there as `v$VERSION`.
+Read and strictly follow **all conventions defined in AGENTS.md** (loaded above) — in particular its **Documentation
+Conventions** (British English, line wrapping, icons in headings), **Documentation File Map**, **Git Workflow**
+(Branching Model) and **Release Checklist** sections. Treat it as the single source of truth; do not reinterpret or
+contradict its rules. This is a personal profile repo (README + bio content) — there is no build, test suite,
+package manifest, or version file to bump.
 
 Steps:
 

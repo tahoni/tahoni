@@ -30,12 +30,14 @@ Before drafting, run these yourself and read their output:
    base=$(git merge-base develop HEAD 2>/dev/null || git merge-base main HEAD 2>/dev/null)
    git --no-pager log --oneline "$base"..HEAD 2>/dev/null
    ```
-5. `git --no-pager log -20 --oneline` on `main` — this repo's existing commit history is the style guide; there is no
-   `AGENTS.md` or contribution doc to defer to.
+5. `git --no-pager log -20 --oneline` on `main` — this repo's existing commit history is the style guide.
+6. Read `AGENTS.md` in full for conventions.
 
 ## 🚀 Instructions
 
-This is a personal profile repo (README + bio content under `docs/`) — there is no CHANGELOG.md, issue tracker
+Read and strictly follow the **Documentation Conventions** (British English) and **Git Workflow** sections in
+AGENTS.md (loaded above). Treat it as the single source of truth; do not reinterpret or contradict its rules. This
+is a personal profile repo (README + bio content under `docs/`) — there is no CHANGELOG.md, issue tracker
 convention, or build/test detail to reference. Base the message purely on the actual diff and this repo's existing
 commit style.
 
