@@ -61,45 +61,45 @@ an icon already established for a concept rather than inventing a new one; only 
 genuinely new concept. Icons already established in this repository's documentation:
 
 | Icon | Concept                        |
-|------|---------------------------------|
-| 📖   | Introduction / overview         |
-| 📚   | Documentation                   |
-| 🗂️   | Documentation file index        |
-| 🧩   | Tooling / automation            |
-| 🔀   | Git workflow / pull request     |
-| 🚢   | Release process                 |
-| 🌲   | Evergreen documentation         |
-| 📦   | Release notes / what's new      |
-| 🚀   | Instructions / current version  |
-| 📝   | Notes / headline                |
-| ✨   | Summary / features              |
-| ✅   | Test plan / completed           |
-| 🔍   | Current state / inspection      |
+|------|--------------------------------|
+| 📖   | Introduction / overview        |
+| 📚   | Documentation                  |
+| 🗂️   | Documentation file index       |
+| 🧩   | Tooling / automation           |
+| 🔀   | Git workflow / pull request    |
+| 🚢   | Release process                |
+| 🌲   | Evergreen documentation        |
+| 📦   | Release notes / what's new     |
+| 🚀   | Instructions / current version |
+| 📝   | Notes / headline               |
+| ✨   | Summary / features             |
+| ✅   | Test plan / completed          |
+| 🔍   | Current state / inspection     |
 
 ---
 
 ## 🗂️ Documentation File Map
 
-| File         | Purpose                                                          |
-|--------------|-------------------------------------------------------------------|
-| `README.md`  | GitHub profile bio — renders directly on the GitHub profile page |
-| `CLAUDE.md`  | Thin pointer to `AGENTS.md`, kept for Claude Code's filename discovery |
-| `AGENTS.md`  | Cross-tool conventions for this repository (this file)           |
+| File        | Purpose                                                                |
+|-------------|------------------------------------------------------------------------|
+| `README.md` | GitHub profile bio — renders directly on the GitHub profile page       |
+| `CLAUDE.md` | Thin pointer to `AGENTS.md`, kept for Claude Code's filename discovery |
+| `AGENTS.md` | Cross-tool conventions for this repository (this file)                 |
 
 Two documentation-only folders supplement these:
 
 - **`docs/`** holds the source content mirrored out to other platforms:
 
-  | File                     | Purpose                                                  |
-  |--------------------------|-----------------------------------------------------------|
-  | `docs/github/bio.md`     | Short bio mirrored into GitHub's own profile bio field   |
-  | `docs/linkedin/bio.md`   | Short bio mirrored into LinkedIn's headline/bio field    |
-  | `docs/linkedin/about.md` | Longer About section mirrored into LinkedIn              |
+  | File                     | Purpose                                                |
+    |--------------------------|--------------------------------------------------------|
+  | `docs/github/bio.md`     | Short bio mirrored into GitHub's own profile bio field |
+  | `docs/linkedin/bio.md`   | Short bio mirrored into LinkedIn's headline/bio field  |
+  | `docs/linkedin/about.md` | Longer About section mirrored into LinkedIn            |
 
 - **`documentation/history/`** holds one of each of the following files per released version:
 
   | File                       | Purpose                                                    |
-  |----------------------------|--------------------------------------------------------------|
+    |----------------------------|------------------------------------------------------------|
   | `RELEASE_NOTES_vX.Y.Z.md`  | Archived release notes for that version                    |
   | `PR_DESCRIPTION_vX.Y.Z.md` | The release pull request's body, archived for that version |
 
@@ -109,10 +109,10 @@ Two documentation-only folders supplement these:
 
 `.claude/skills/` holds this repository's project-specific Claude Code skills, one `SKILL.md` per skill:
 
-| Skill                     | Purpose                                                                          |
-|----------------------------|-----------------------------------------------------------------------------------|
+| Skill                     | Purpose                                                                                                           |
+|---------------------------|-------------------------------------------------------------------------------------------------------------------|
 | `generate-commit-message` | Draft a commit message for the working tree's changes, matching this repo's plain, imperative-mood commit history |
-| `prep-version-release`    | Draft a version's `RELEASE_NOTES_vX.Y.Z.md` and `PR_DESCRIPTION_vX.Y.Z.md` under `documentation/history/` |
+| `prep-version-release`    | Draft a version's `RELEASE_NOTES_vX.Y.Z.md` and `PR_DESCRIPTION_vX.Y.Z.md` under `documentation/history/`         |
 
 ---
 
@@ -134,8 +134,8 @@ This repository follows the [GitFlow](https://nvie.com/posts/a-successful-git-br
 ### Conventions
 
 - **Commit in logical chunks.** One concern per commit — do not bundle unrelated changes into a single commit.
-- **Plain, imperative-mood commit messages.** This repository does not use Conventional Commits prefixes
-  (`feat:`, `fix:`, `docs:`, etc.) — see the `generate-commit-message` skill.
+- **Plain, imperative-mood commit messages.** This repository does not use Conventional Commits prefixes (`feat:`,
+  `fix:`, `docs:`, etc.) — see the `generate-commit-message` skill.
 
 ---
 
@@ -162,5 +162,5 @@ Commit the release notes and PR description together as one documentation commit
   avoid anything that needs updating on every release).
 
 **Reverse sync rule:** When drafting `RELEASE_NOTES_vX.Y.Z.md`, check whether any of the changes being documented are
-relevant to `README.md` or the `docs/` bio files and update those too if so, keeping them internally consistent
-(same links, same tone) and release-agnostic per the rules above.
+relevant to `README.md` or the `docs/` bio files and update those too if so, keeping them internally consistent (same
+links, same tone) and release-agnostic per the rules above.
