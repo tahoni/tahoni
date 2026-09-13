@@ -38,8 +38,8 @@ Before drafting, run these yourself and read their output:
 ## 🚀 Instructions
 
 This is a personal profile repo (README + bio content) — there is no build, test suite, package manifest, or
-version file to bump. Follow this repo's established GitFlow-style branching: release branches
-(`release/v$VERSION`) are cut from `develop`, merged back into `develop`, and `develop` is later merged into `main`
+version file to bump. Follow this repo's established GitFlow-style branching: release branches (`release/v$VERSION`) are
+cut from `develop`, merged back into `develop`, and `develop` is later merged into `main`
 and tagged there as `v$VERSION`.
 
 Steps:
@@ -47,26 +47,26 @@ Steps:
 1. **Confirm the diff against the latest tag** (gathered above) covers everything that changed for this release —
    re-run the `git log`/`git diff --stat` commands yourself if the branch has moved on since this skill started.
 2. **Draft `documentation/history/RELEASE_NOTES_v$VERSION.md`.** Follow the established format:
-   - `# 📦 Release Notes`
-   - `## 🚀 v$VERSION`
-   - A one-line theme sentence summarizing what the release is about
-   - A flat bullet list covering **everything** that changed for this version (not just the latest commit) — pulled
-     from the commit log and diff, in plain language (e.g. "Rewrote the README bio…", "Fixed an incorrect LinkedIn
-     URL…"). Group into `### Added` / `### Changed` / `### Fixed` / `### Removed` subsections only if the release is
-     large enough that a flat list gets hard to scan; otherwise keep it a single flat list like prior releases.
-   - End with a blank line then the standard Claude Code attribution footer:
-     `🤖 Generated with [Claude Code](https://claude.com/claude-code)`
+    - `# 📦 Release Notes`
+    - `## 🚀 v$VERSION`
+    - A one-line theme sentence summarising what the release is about
+    - A flat bullet list covering **everything** that changed for this version (not just the latest commit) — pulled
+      from the commit log and diff, in plain language (e.g. "Rewrote the README bio…", "Fixed an incorrect LinkedIn
+      URL…"). Group into `### Added` / `### Changed` / `### Fixed` / `### Removed` subsections only if the release is
+      large enough that a flat list gets hard to scan; otherwise keep it a single flat list like prior releases.
+    - End with a blank line then the standard Claude Code attribution footer:
+      `🤖 Generated with [Claude Code](https://claude.com/claude-code)`
 3. **Write `documentation/history/PR_DESCRIPTION_v$VERSION.md`** — the body text for the release pull request. Keep
    it small — a PR body, not a second release notes file: a few bullets per section, high-level only. Structure:
-   - `# 🔀 Pull Request`
-   - `## 📝 <short headline for the change> (v$VERSION)`
-   - `### ✨ Summary` — a few bullets on what changed and why
-   - `### ✅ Test plan` — a checklist of manual checks appropriate to a content-only repo, e.g. preview `README.md`
-     rendering on GitHub, verify all links resolve, spot-check bio files for typos/formatting
-   - End with a blank line then the standard Claude Code attribution footer:
-     `🤖 Generated with [Claude Code](https://claude.com/claude-code)`
+    - `# 🔀 Pull Request`
+    - `## 📝 <short headline for the change> (v$VERSION)`
+    - `### ✨ Summary` — a few bullets on what changed and why
+    - `### ✅ Test plan` — a checklist of manual checks appropriate to a content-only repo, e.g. preview `README.md`
+      rendering on GitHub, verify all links resolve, spot-check bio files for typos/formatting
+    - End with a blank line then the standard Claude Code attribution footer:
+      `🤖 Generated with [Claude Code](https://claude.com/claude-code)`
 4. **Apply the reverse sync check**: re-read `README.md` and the `docs/` bio files once the release notes are
-   finalized, and confirm they're internally consistent and don't contradict each other (e.g. same links, same tone)
+   finalised, and confirm they're internally consistent and don't contradict each other (e.g. same links, same tone)
    — these files should stay evergreen, with no version numbers or release-specific language leaking into them.
 
 Commit the release notes and PR description together as one documentation commit, unless the user asks otherwise. Do

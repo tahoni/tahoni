@@ -40,8 +40,8 @@ convention, or build/test detail to reference. Base the message purely on the ac
 commit style.
 
 This skill drafts a message for **whatever is currently staged/unstaged** — it is not limited to changes made in the
-current Claude session. Use the "commits already made on this branch" context above purely to stay consistent
-(matching phrasing/scope naming) — never fold already-committed work into the new message.
+current Claude session. Use the "commits already made on this branch" context above purely to stay consistent (matching
+phrasing/scope naming) — never fold already-committed work into the new message.
 
 1. **Inspect the changes above**, do not guess — review the actual diff hunks so the message describes real content
    changes, not assumptions. If scope narrowing was passed in `args`, only consider matching files.
@@ -74,7 +74,7 @@ current Claude session. Use the "commits already made on this branch" context ab
 
 Do **not** run `git add` or `git commit` yourself — this skill only drafts, for the user to review and run.
 
-1. The final commit message(s) as fenced code blocks, each followed by a ready-to-run `git commit` command
+1. The final commit message (s) as fenced code blocks, each followed by a ready-to-run `git commit` command
 2. If proposing multiple commits, output one message block and one commit command per commit, in the order they
    should be made
 
