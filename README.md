@@ -32,4 +32,4 @@ You can connect to me on the following platforms:
 
 - 📧 Email: [tahoni@gmail.com](mailto:tahoni@gmail.com)
 - 🐙 GitHub: [github.com/tahoni](https://github.com/tahoni)
-- 💼 LinkedIn: [Leoni Lubbinge](https://www.linkedin.com/in/leoni-lubbinge-06066b16/)
+- 💼 LinkedIn: [Leoni Lubbinge](https://www.linkedin.com/in/tahoni/)
